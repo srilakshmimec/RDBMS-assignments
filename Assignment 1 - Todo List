@@ -8,7 +8,7 @@ Ans.
 create database Remainders;
 create table TodoList(id tinyint, item varchar(30), time_taken tinyint);
 insert into TodoList values(1,"Learn HTML",45),(2,"Tea break",10),(3,"Learn CSS",45),(4,"Snack break",10),(5,"Learn JS",45),(6,"Lunch break",30),(7,"Learn database",45),(8,"Nap time",30);
-------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Output:
 select * from TodoList;
